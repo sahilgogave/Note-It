@@ -143,3 +143,75 @@ textarea {
   font-size: 1rem;
   line-height: 2rem;
 }
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+
+
+
+/* For medium devices */
+@media screen and (max-width: 712px) {
+
+  .app-sidebar {
+    width: 40%;
+    height: 100vh;
+    border-right: 1px solid #ddd;
+  }
+  
+
+
+  .app-sidebar-header {
+
+    padding: 25px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 440px) {
+
+ 
+  .app-sidebar {
+    width: 40%;
+    height: 100vh;
+    border-right: 1px solid #ddd;
+  }
+  
+
+
+  .app-sidebar-header {
+
+    padding: 13px;
+  }
+
+}
+
+
+
+/* For small devices */
+@media screen and (max-width: 380px) {
+
+ 
+  .app-sidebar {
+    width: 50%;
+    height: 100vh;
+    border-right: 1px solid #ddd;
+  }
+  
+
+
+  .app-sidebar-header {
+
+    padding: 13px;
+  }
+
+  .App {
+    font-size: 13px;
+
+  }
+}
+
+
+
